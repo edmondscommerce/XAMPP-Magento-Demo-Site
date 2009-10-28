@@ -22,13 +22,32 @@ Instructions
 ============
 
 
-This will open a new window. You need to hit the [Start] button next to Apache and MySQL.
+1. Go to http://github.com/edmondscommerce/XAMPP-Magento-Demo-Site and hit the download button
 
-Once they are started, open firefox and type http://127.0.0.1 in the address bar.
+2. Select the tar.gz option for download
 
-You should see an XAMPP splash screen displayed. If you do, then XAMPP is working correctly.
+3. Download and install 7zip from here http://www.7-zip.org/
+(the top one is standard, the bottom one is 64bit)
 
-If not then you need to investigate further, perhaps try running the XAMPP setup script again or hit Google..
+4. Right click the downloaded tar.gz file and select 7zip->extract here
+
+5. That will create a tar file. Please right click that select 7zip extract here again.
+
+7. That gives you the unpacked folder. Inside the folder is another folder called xampp. Please copy and paste that into the root of your C: drive.
+
+8. Go into the xampp folder and find the orange icon for XAMPP control panel. Double click that to open the control panel.
+
+9. Press [Start] next to both Apache and MySQL
+
+10. Go to http://127.0.0.1/magento to see it running
+
+11. Go to http://127.0.0.1/magento/admin to get to teh admin login screen:
+
+user is demo
+pass is 1magento
+
+
+Have a good play around with it!
 
 
 XAMPP Security
