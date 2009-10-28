@@ -1,0 +1,26 @@
+InnoDB: The first specified data file \xampp\mysql\data\ibdata1 did not exist:
+InnoDB: a new database to be created!
+091028 13:19:02  InnoDB: Setting file \xampp\mysql\data\ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+091028 13:19:03  InnoDB: Log file \xampp\mysql\data\ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file \xampp\mysql\data\ib_logfile0 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+091028 13:19:03  InnoDB: Log file \xampp\mysql\data\ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file \xampp\mysql\data\ib_logfile1 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+091028 13:19:04  InnoDB: Started; log sequence number 0 0
+091028 13:19:04 [Note] Event Scheduler: Loaded 0 events
+091028 13:19:04 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.33-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+091028 14:12:25 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+091028 14:12:25 [Note] Event Scheduler: Purging the queue. 0 events
+091028 14:12:25  InnoDB: Starting shutdown...
+091028 14:12:28  InnoDB: Shutdown completed; log sequence number 0 11013385
+091028 14:12:28 [Warning] Forcing shutdown of 1 plugins
+091028 14:12:28 [Note] mysql\bin\mysqld.exe: Shutdown complete
+

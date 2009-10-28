@@ -1,0 +1,187 @@
+Zend Optimizer™ - License Agreement  
+version 2.5.10a 
+
+ZEND TECHNOLOGIES LTD. SOFTWARE LICENSE AGREEMENT ("AGREEMENT")
+IMPORTANT: READ THESE TERMS CAREFULLY BEFORE INSTALLING THIS SOFTWARE. BY SELECTING THE "I ACCEPT" BUTTON BELOW, 
+INSTALLING, OR OTHERWISE USING THIS SOFTWARE, YOU (THE "LICENSEE") ACKNOWLEDGE THAT YOU HAVE READ THIS AGREEMENT, 
+AND THAT YOU AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS. IF YOU DO NOT AGREE TO ALL OF THE TERMS AND 
+CONDITIONS OF THIS AGREEMENT, YOU ARE NOT AN AUTHORIZED USER OF THE SOFTWARE AND IT IS YOUR RESPONSIBILITY TO EXIT 
+THIS INSTALLATION PROGRAM WITHOUT INSTALLING THE SOFTWARE BY SELECTING THE "I DO NOT ACCEPT" BUTTON BELOW, AND TO 
+DELETE THE SOFTWARE FROM YOUR COMPUTER. 
+
+1. DEFINITIONS 
+1.1. Licensor. The term "Licensor" shall mean Zend Technologies Ltd., having an address at #7 Aba Hillel St., Ramat Gan 
+52136, Israel. 
+1.2. Software. The term "Software" shall mean the Zend computer software program known as the "Zend Optimizer," as 
+installed by this installation process, in machine-executable form only, and any related documentation. 
+1.3. Term. The term "Term" shall mean the period commencing on the date that Licensee installs the Software on a computer 
+in accordance with the terms and conditions hereof (the "Effective Date") and continuing perpetually or until terminated due to 
+Licensee's breach of this Agreement in accordance with Section 3 hereof. 
+
+2. LICENSE 
+2.1. Scope of Use. Subject to the terms and conditions of this Agreement, including, without limitation, Section 2.2 hereof, 
+Licensor hereby grants to Licensee, during the Term, a limited, a non-exclusive, non-transferable (subject to Section 2.3) 
+license (the "License") to install and operate the Software on a computer or a computer network owned or operated by 
+Licensee. 
+2.2. Restrictions. Except as otherwise expressly set forth herein or to the extent such restrictions cannot be imposed under the 
+applicable law, Licensee shall not: (a) copy the Software other than as required to use the Software as intended by this 
+Agreement; (b) translate or decompile, or create or attempt to create, by reverse engineering or otherwise, the source code 
+form from the object code supplied hereunder; (c) modify, adapt, translate or create a derivative work from the Software; (d) 
+remove any proprietary notices, labels, or marks on the Software; or (e) assign, sublicense (except as set forth in Section 
+2.3), rent or transfer all or any part of the Software to any person or entity without the prior written consent of Licensor. To 
+the extent that Licensor provides any third party software to Licensee in connection with this Agreement or the Software, 
+Licensee's use of such third party software shall be subject to any license agreements provided by the third party vendors of 
+such third party software. 
+2.3. Right to Sublicense. During the Term and subject to the terms and conditions hereof, Licensee may make copies of the 
+Software and sublicense to its customers (the "Licensee Customers") a limited, non-exclusive, internal-use-only sublicense to 
+install and use such copies of the Software at the Licensee Customer's site, provided that: (1) Licensee is not authorized to 
+charge Licensee Customers a fee (directly or indirectly) for such sublicense; and (2) each such Licensee Customer shall be 
+obligated to execute a sublicense agreement (a "Licensee Customer Sublicense Agreement"). Such Licensee Customer 
+Sublicense Agreement shall protect Licensor's proprietary rights in the Software, and any portion thereof, to at least the same 
+degree as provided under the terms and conditions of this Agreement, and, without limitation of the foregoing, shall: (i) 
+require that such Licensee Customer not reverse engineer, reverse compile or disassemble the object code of the Software, (ii) 
+require such Licensee Customer to comply fully with all applicable laws and regulations in any of its dealings with respect to 
+the Software, (iii) make no representations or warranties on behalf of Licensor; (iv) not grant any rights to such Licensee 
+Customer beyond the scope of this Agreement, and (v) prohibit the further distribution, sublicensing or use of the Software in 
+a service bureau or time sharing basis (except pursuant to a sublicense agreement that is at least as protective of Licensor's 
+rights as a Licensee Customer Sublicense Agreement). 
+2.4. Records. At all times during and for three (3) years after the Term, Licensee shall: (i) maintain a copy of all Licensee 
+Customer Sublicense Agreements (including, if any Licensee Customer Sublicense Agreements were entered into via 
+"shrinkwrap" license, online "acceptance", "shrinkwrap" license or a similar method, a list of the identities of each such 
+Licensee Customer and a copy of the Licensee Customer Sublicense Agreement entered into by each such Licensee Customer) 
+and, upon Zend's request at any time during such period, make available to Zend copies of all such Licensee Customer 
+Sublicense Agreements and lists of Licensee Customers; and (ii) maintain complete, detailed and accurate records of all use 
+Licensee makes of the Software and all of Licensee's distributions of the Software. 
+
+3. TERMINATION 
+This License will terminate automatically upon any breach by Licensee of any term or condition of this Agreement. Within five 
+(5) business days of any such termination, Licensee shall return the Software to Licensor (or, at Licensor's sole discretion and 
+only at Licensor's direction, destroy the Software and certify in writing to Licensor that said Software has been destroyed). 
+Upon return of the Software or upon receipt of notice of the destruction of the Software, as appropriate, this Agreement shall 
+terminate and Licensor shall have no further obligations to Licensee. Articles 1,2.4, 3, 4, 5, 6, 7, 8, 9, 10, 11 and 12 hereof 
+shall survive the expiration or termination of this Agreement for any reason. 
+
+4. INTELLECTUAL PROPERTY RIGHTS 
+4.1. Ownership. Licensee hereby acknowledges and agrees that Licensor or its licensors own and retain all rights, title, and 
+interest in and to the Software, regardless of the form or media in or on which the original or other copies may subsequently 
+exist including, without limitation, all copyrights, trademarks, patents and trade secret rights inherent therein or appurtenant 
+thereto. This Agreement shall not constitute a sale of the Software and no title or proprietary rights to the Software are 
+transferred to the Licensee hereby. 
+4.2. Injunctive Relief. Licensee acknowledges that the Software is a unique, confidential and valuable asset and trade secret of 
+Licensor or its licensors, and Licensor or its licensors shall have the right to obtain all equitable and legal redress which may be 
+available to it for the breach or threatened breach of this Agreement including, without limitation, injunctive relief. 
+
+5. WARRANTY; DISCLAIMER 
+Licensee hereby represents and warrants that all subscription, registration and payment information provided by Licensee to 
+Licensor relating to this Agreement, whether via online forms or otherwise, is accurate and complete and that the person 
+Accepting the terms hereof is authorized to bind to this Agreement the entity identified by it as the licensee under this 
+Agreement. IF THE SOFTWARE DOWNLOADED OR INSTALLED HEREUNDER IS DESIGNATED BY LICENSOR AS A "BETA 
+VERSION," LICENSEE HEREBY ACKNOWLEDGES THAT SUCH SOFTWARE IS A BETA VERSION THAT HAS NOT YET BEEN 
+COMPLETELY TESTED BY LICENSOR. NOTWITHSTANDING THE FOREGOING, REGARDLESS OF HOW THE SOFTWARE IS 
+DESIGNATED BY LICENSOR (E.G. AS A "BETA VERSION" OR OTHERWISE), THE SOFTWARE IS BEING LICENSED HEREUNDER 
+WITH NO WARRANTY WHATSOEVER. LICENSEE ACKNOWLEDGES THAT ITS USE OF THE SOFTWARE IS AT ITS OWN RISK. THE 
+SOFTWARE IS PROVIDED SOLELY ON AN "AS-IS" BASIS. LICENSOR AND ITS LICENSORS MAKE, AND LICENSEE RECEIVES, 
+NO WARRANTIES, EXPRESS, IMPLIED, OR OTHERWISE. LICENSOR EXPRESSLY DISCLAIMS ANY IMPLIED WARRANTIES OF 
+MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE, AND/OR NONINFRINGEMENT. 
+LICENSOR DOES NOT WARRANT THAT THE OPERATION OF THE SOFTWARE SHALL BE OPERABLE, UNINTERRUPTED OR ERROR 
+FREE OR THAT IT WILL FUNCTION OR OPERATE IN CONJUNCTION WITH ANY OTHER PRODUCT, INCLUDING, WITHOUT 
+LIMITATION, PHP AND ANY VERSION THEREOF. LICENSEE SHALL BE SOLELY RESPONSIBLE FOR DOWNLOADING OR 
+OTHERWISE OBTAINING SUCH OTHER SOFTWARE OR PRODUCTS, INCLUDING, WITHOUT LIMITATION, PHP. 
+
+6. LIMITATION OF LIABILITY 
+IN NO EVENT SHALL LICENSOR OR ITS LICENSORS BE LIABLE FOR ANY DIRECT, CONSEQUENTIAL, EXEMPLARY, SPECIAL, 
+INDIRECT, INCIDENTAL OR PUNITIVE DAMAGES OR LOST PROFITS (EVEN IF THEY HAVE BEEN ADVISED OF THE POSSIBILITY 
+OF SUCH DAMAGES) ARISING FROM OR RELATING TO THIS AGREEMENT OR THE SUBJECT MATTER HEREOF, INCLUDING 
+WITHOUT LIMITATION, DAMAGES ARISING FROM LOSS OF DATA, OR ANY OTHER DAMAGES, HOWEVER CAUSED, AND UNDER 
+ANY THEORY OF LIABILITY. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF IMPLIED 
+WARRANTIES OR LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATIONS OR EXCLUSIONS 
+MAY NOT APPLY TO LICENSEE. WITHOUT LIMITATION OF THE FOREGOING, UNDER NO CIRCUMSTANCES SHALL LICENSOR'S 
+TOTAL AGGREGATE LIABILITY TO YOU FOR ANY AND ALL CLAIMS ARISING HEREUNDER, INCLUDING WITHOUT LIMITATION 
+ARISING OUT OF YOUR USE OF THE SOFTWARE, EXCEED THE SUM OF $100. 
+
+7. INDEMNITY 
+Licensee will, at its own expense, defend any action brought by a third party against Licensor to the extent that such action is 
+based on a claim arising from or relating to: (a) Licensee's use of the Software, (ii) any distribution of the Software by 
+Licensee or by any Licensee Customer or by any sublicensee or extended sublicensee of any such Licensee Customer, 
+regardless of privity of contract and regardless of the length of the trail of sublicenses, or (iii) any use of the Software by any 
+of the foregoing sublicensees. Licensor shall have the exclusive right to control such defense. In no event shall Licensee settle 
+any such claim, lawsuit or proceeding in any manner that materially prejudices Licensor's rights without Licensor's prior 
+written approval. 
+
+8. CONFIDENTIALITY 
+8.1. Confidential Information. Licensee shall (and shall ensure that its employees shall) maintain the strict confidentiality of 
+the Software, all information and materials contained in the Software and all information and materials conveyed by Licensor 
+to Licensee hereunder, including but not limited to documentation that may be provided with the Software, or any other 
+information relating to the Software's features and modes of operation, inventions (whether or not patentable), techniques, 
+processes, algorithms, schematics, testing procedures, software design and architecture, computer code, internal 
+documentation, design and function specifications, analysis and performance information, user documentation and other 
+technical information, plans and data (collectively, the "Licensor Proprietary Information"). This undertaking shall not apply to 
+information that becomes part of the public domain through no act or omission of Licensee or is in Licensee's lawful possession 
+prior to the Effective Date as demonstrated by written documentation. 
+8.2. Non-Disclosure. Licensee shall not permit anyone other than its own most trusted employees with a need to know to 
+access or use the Licensor Proprietary Information. Licensee shall not disclose the Licensor Proprietary Information to any third 
+party or use the Licensor Proprietary Information other than as authorized hereunder. Furthermore, Licensee: (a) recognizes 
+that the unauthorized use or disclosure of Licensor Proprietary Information will give rise to irreparable injury to Licensor or its 
+licensors for which monetary damages may be an inadequate remedy; and (b) agrees that Licensor or its licensors may seek 
+and obtain injunctive relief against the breach or threatened breach of Licensee's obligations under this Agreement, in addition 
+to any other legal and equitable remedies which may be available to Licensor. 
+
+9. U.S. GOVERNMENT RESTRICTED RIGHTS 
+The Software provided hereunder is a "commercial item," as that term is defined in 48 C.F.R. 2.101, consisting of "commercial 
+computer software" and "commercial computer software documentation," as such terms are used in 48 C.F.R. 12.212. 
+Consistent with 48 C.F.R. 12.212 and 48 C.F.R. 227.7202-1 through 227.7202-4, the Software made available to the United 
+States of America, its agencies and/or instrumentalities, is provided with only those rights set forth in this Agreement. Use, 
+duplication or disclosure of the Software by the government is subject to the restrictions as set forth in subparagraph (c)(1) 
+and (2) of the Commercial Computer Software-Restricted Rights clause at 48 C.F.R. 52.227-19, as amended, or any successor 
+regulations thereto. 
+
+10. EXPORT RESTRICTIONS 
+You represent and warrant that you will not, without obtaining prior written authorization from Licensor and, if required, of the 
+Bureau of Export Administration of the United States Department of Commerce or other relevant agency of the United States 
+Government, export or reexport, directly or indirectly, the Software (including without limitation the source code thereof) or 
+any Confidential Information of Licensor (including without limitation information regarding the use, access, deployment, or 
+functionality of the Software) from the United States to (i) any country destination to which export is restricted by the Export 
+Administration Regulations of the United States Department of Commerce; (ii) any country subject to sanctions administered 
+by the Office of Foreign Assets Control, United States Department of the Treasury; or (iii) such other countries to which export 
+is restricted by any other United States government agency. You further agree that you are solely responsible for compliance 
+with any import laws and regulations of the country of destination of a permitted export or reexport, and any other import 
+requirement related to a permitted export or reexport. 
+
+11. MISCELLANEOUS 
+This Agreement and any matters relating to it shall be governed by and construed in accordance with the laws of the country 
+of Israel, without regard to principles of conflicts of laws, and the sole venue and jurisdiction for any disputes arising out of or 
+related to this Agreement or the subject matter hereof shall be the appropriate courts located in the country of Israel and 
+Licensee consents to the jurisdiction of such courts. Notwithstanding the foregoing, Licensor shall have the right to apply to 
+any court of competent jurisdiction for injunctive or other relief. Other than as expressly set forth in this Agreement, Licensee 
+shall not sublicense, assign, delegate or otherwise transfer this Agreement or any of the related rights or obligations for any 
+reason and any attempt by Licensee to sublicense, assign, delegate or transfer this Agreement or any of the related rights or 
+obligations hereunder shall cause the immediate termination of this Agreement. This Agreement constitutes the complete and 
+exclusive statement of the terms and agreement between Licensor and Licensee and supersedes all prior representations, 
+understandings and communications, oral or written, between the parties with respect thereto, including memoranda of 
+agreement. The failure of Licensor to insist, in any one or more instances, upon the performance of any term or terms of this 
+Agreement shall not be construed as a waiver or relinquishment of its rights to such performance or future performance of 
+such a term or terms, and the obligation of Licensee in respect thereto shall continue in full force and effect. In the event that 
+a court of competent jurisdiction determines that any provision or portion of a provision of this Agreement is invalid, unlawful, 
+or unenforceable to any extent, the parties agree that such provision shall be deemed to be modified to the minimal extent 
+necessary to make such provision enforceable while still retaining the intent of the parties. In such event, the remainder of 
+this Agreement and its application to other persons shall not be affected thereby, and such remaining provisions of this 
+Agreement shall continue to be valid and may be enforced to the fullest extent permitted by law. In the event legal action is 
+taken by Licensor or its licensors to enforce any provision of this Agreement, all costs and expenses, including reasonable 
+attorneys' fees and expenses, incurred by Licensor or its licensors shall be paid by Licensee, in addition to other damages to 
+which Licensor or its licensors may be lawfully entitled. This Agreement shall be subject to modification or amendment only by 
+written instrument duly executed by authorized representatives of both parties. Licensee agrees that it will not refer to the 
+Software or to the existence of this Agreement nor will it use Licensor's name in any press releases, advertising, marketing or 
+other materials without Licensor's advanced written consent in each instance. Any notice provided by Licensee to Licensor 
+pursuant to this Agreement shall be in writing to Zend Technologies Ltd. at P.O. Box 3619, Ramat Gan 52136, Israel, and shall 
+be deemed given (i) if by hand delivery, upon receipt thereof; (ii) if mailed, three (3) days after deposit in the U.S. mails, 
+postage prepaid, certified mail, return receipt requested; or (iii) if by next day delivery service, upon such delivery. Any notice 
+provided by Licensor to Licensee pursuant to this Agreement shall be sent to the e-mail or mailing address provided by 
+Licensee upon registering on Zend's Web site, and shall be deemed given (i) if by hand delivery, upon receipt thereof; (ii) if 
+mailed, three (3) days after deposit in the U.S. mails, postage prepaid, certified mail, return receipt requested; (iii) if by next 
+day delivery service, upon such delivery; or (iv) if by e-mail, upon the date sent. Either party may change its address by 
+giving written notice to the other party. 
+
+12. ZEND CUSTOMER CONTACT 
+If you have any questions concerning this Agreement, or if you would like to purchase a license for any of Zend's products or 
+contact Zend for any other reason, please send an e-mail to zendinfo@zend.com. 
+

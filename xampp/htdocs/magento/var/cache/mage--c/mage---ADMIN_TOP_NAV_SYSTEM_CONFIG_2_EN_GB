@@ -1,0 +1,267 @@
+
+<!-- menu start -->
+
+<!-- menu end -->
+<div class="nav-bar">
+    <ul id="nav">
+                <li  class="   level0"> <a href="http://127.0.0.1/magento/index.php/admin/dashboard/index/key/60dfdafbeccf307c96a12f23052674ca/"   class=""><span>Dashboard</span></a>
+                    </li>
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="   parent level0"> <a href="#"  onclick="return false" class=""><span>Sales</span></a>
+                                <ul >
+                <li  class="   level1"> <a href="http://127.0.0.1/magento/index.php/admin/sales_order/index/key/f429c0d3762894c457c43c480ce96316/"   class=""><span>Orders</span></a>
+                    </li>
+                <li  class="   level1"> <a href="http://127.0.0.1/magento/index.php/admin/sales_invoice/index/key/163e3d144b52471d4595c0d75c5e785e/"   class=""><span>Invoices</span></a>
+                    </li>
+                <li  class="   level1"> <a href="http://127.0.0.1/magento/index.php/admin/sales_shipment/index/key/d1e3410ea66bdcad41ef12a65762b755/"   class=""><span>Shipments</span></a>
+                    </li>
+                <li  class="   level1"> <a href="http://127.0.0.1/magento/index.php/admin/sales_creditmemo/index/key/20739dc06097161fa578315b294aea9b/"   class=""><span>Credit Memos</span></a>
+                    </li>
+                <li  class="   level1"> <a href="http://127.0.0.1/magento/index.php/admin/checkout_agreement/index/key/b2bdf7f2beef91222b590bf388475d8f/"   class=""><span>Terms and conditions</span></a>
+                    </li>
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="   parent last level1"> <a href="#"  onclick="return false" class=""><span>Tax</span></a>
+                                <ul >
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/tax_rule/index/key/66fd65010120a0a48bf0123da92d9f96/"   class=""><span>Manage Tax Rules</span></a>
+                    </li>
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/tax_rate/index/key/2f12f475829f64c054b18a00f2722a64/"   class=""><span>Manage Tax Zones & Rates</span></a>
+                    </li>
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/tax_rate/importExport/key/2a6375e1d1f618fecc8bfaa4f09e8dcf/"   class=""><span>Import / Export Tax Rates</span></a>
+                    </li>
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/tax_class_customer/index/key/59bbfdc9189c0fd64e9f9e56a34f1c31/"   class=""><span>Customer Tax Classes</span></a>
+                    </li>
+                <li  class="   last level2"> <a href="http://127.0.0.1/magento/index.php/admin/tax_class_product/index/key/20a7f6caa6284a1d9b83672027b2c3a2/"   class=""><span>Product Tax Classes</span></a>
+                    </li>
+            </ul>
+                    </li>
+            </ul>
+                    </li>
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="   parent level0"> <a href="#"  onclick="return false" class=""><span>Catalog</span></a>
+                                <ul >
+                <li  class="   level1"> <a href="http://127.0.0.1/magento/index.php/admin/catalog_product/index/key/315c26ba908451523a89840b4f4abc02/"   class=""><span>Manage Products</span></a>
+                    </li>
+                <li  class="   level1"> <a href="http://127.0.0.1/magento/index.php/admin/catalog_category/index/key/8392f9597b8de11931b0dc66577416be/"   class=""><span>Manage Categories</span></a>
+                    </li>
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="   parent level1"> <a href="#"  onclick="return false" class=""><span>Attributes</span></a>
+                                <ul >
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/catalog_product_attribute/index/key/6d04daeac6e35b4e125a0cbe1dbf4c1b/"   class=""><span>Manage Attributes</span></a>
+                    </li>
+                <li  class="   last level2"> <a href="http://127.0.0.1/magento/index.php/admin/catalog_product_set/index/key/e02eecb9eded34cfbbefa3e236b909ff/"   class=""><span>Manage Attribute Sets</span></a>
+                    </li>
+            </ul>
+                    </li>
+                <li  class="   level1"> <a href="http://127.0.0.1/magento/index.php/admin/urlrewrite/index/key/5f663d3a808016e699d9d143fcc90192/"   class=""><span>Url Rewrite Management</span></a>
+                    </li>
+                <li  class="   level1"> <a href="http://127.0.0.1/magento/index.php/admin/catalog_search/index/key/87ac9b94561fb25b86ddc79217cf8035/"   class=""><span>Search</span></a>
+                    </li>
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="   parent level1"> <a href="#"  onclick="return false" class=""><span>Reviews and Ratings</span></a>
+                                <ul >
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="   parent level2"> <a href="#"  onclick="return false" class=""><span>Customer Reviews</span></a>
+                                <ul >
+                <li  class="   level3"> <a href="http://127.0.0.1/magento/index.php/admin/catalog_product_review/pending/key/2539b39cdb844d0194fe62670e466c0e/"   class=""><span>Pending Reviews</span></a>
+                    </li>
+                <li  class="   last level3"> <a href="http://127.0.0.1/magento/index.php/admin/catalog_product_review/index/key/a12e24924cf648d276c53709482cb5ba/"   class=""><span>All Reviews</span></a>
+                    </li>
+            </ul>
+                    </li>
+                <li  class="   last level2"> <a href="http://127.0.0.1/magento/index.php/admin/rating/index/key/1e669a19c92ebb808b78546805435a6c/"   class=""><span>Manage Ratings</span></a>
+                    </li>
+            </ul>
+                    </li>
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="   parent level1"> <a href="#"  onclick="return false" class=""><span>Tags</span></a>
+                                <ul >
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/tag/pending/key/6a94d2908b228bc9f96a3445e99337a0/"   class=""><span>Pending Tags</span></a>
+                    </li>
+                <li  class="   last level2"> <a href="http://127.0.0.1/magento/index.php/admin/tag/index/key/9bf197513d68022544d09420ac6d20da/"   class=""><span>All Tags</span></a>
+                    </li>
+            </ul>
+                    </li>
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="   parent level1"> <a href="#"  onclick="return false" class=""><span>Google Base</span></a>
+                                <ul >
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/googlebase/types/index/key/aca482f2a29a401a004709d5eb3f59fb/"   class=""><span>Manage Attributes</span></a>
+                    </li>
+                <li  class="   last level2"> <a href="http://127.0.0.1/magento/index.php/googlebase/items/index/key/fc3e4b5b503cad3e1a97fa98e2c9de6d/"   class=""><span>Manage Items</span></a>
+                    </li>
+            </ul>
+                    </li>
+                <li  class="   last level1"> <a href="http://127.0.0.1/magento/index.php/admin/sitemap/index/key/ee1adfe7e9cf6d7075f31a80d352bb40/"   class=""><span>Google Sitemap</span></a>
+                    </li>
+            </ul>
+                    </li>
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="   parent level0"> <a href="#"  onclick="return false" class=""><span>Customers</span></a>
+                                <ul >
+                <li  class="   level1"> <a href="http://127.0.0.1/magento/index.php/admin/customer/index/key/28e0dade300ded87324ea3b6f4dc0afb/"   class=""><span>Manage Customers</span></a>
+                    </li>
+                <li  class="   level1"> <a href="http://127.0.0.1/magento/index.php/admin/customer_group/index/key/113244be5545076f95de97a1a6d6882e/"   class=""><span>Customer Groups</span></a>
+                    </li>
+                <li  class="   last level1"> <a href="http://127.0.0.1/magento/index.php/admin/customer_online/index/key/e344c0ec4ab32e2dee976ea5eaf07fec/"   class=""><span>Online Customers</span></a>
+                    </li>
+            </ul>
+                    </li>
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="   parent level0"> <a href="#"  onclick="return false" class=""><span>Promotions</span></a>
+                                <ul >
+                <li  class="   level1"> <a href="http://127.0.0.1/magento/index.php/admin/promo_catalog/index/key/5392c8c353ebcc2e1a3ab5d39c22c795/"   class=""><span>Catalog Price Rules</span></a>
+                    </li>
+                <li  class="   last level1"> <a href="http://127.0.0.1/magento/index.php/admin/promo_quote/index/key/5cb07cb8683b20bff581e31adbaa33a4/"   class=""><span>Shopping Cart Price Rules</span></a>
+                    </li>
+            </ul>
+                    </li>
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="   parent level0"> <a href="#"  onclick="return false" class=""><span>Newsletter</span></a>
+                                <ul >
+                <li  class="   level1"> <a href="http://127.0.0.1/magento/index.php/admin/newsletter_template/index/key/cc6ee356b1e8563f3eef8585d951841d/"   class=""><span>Newsletter Templates</span></a>
+                    </li>
+                <li  class="   level1"> <a href="http://127.0.0.1/magento/index.php/admin/newsletter_queue/index/key/66002a247cd05e42a6dea0cd41197e86/"   class=""><span>Newsletter Queue</span></a>
+                    </li>
+                <li  class="   level1"> <a href="http://127.0.0.1/magento/index.php/admin/newsletter_subscriber/index/key/0dc7dd7314f60580b72df49b3dc2d539/"   class=""><span>Newsletter Subscribers</span></a>
+                    </li>
+                <li  class="   last level1"> <a href="http://127.0.0.1/magento/index.php/admin/newsletter_problem/index/key/4bfc39b66c8d453846e882e751e2b1ae/"   class=""><span>Newsletter Problem Reports</span></a>
+                    </li>
+            </ul>
+                    </li>
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="   parent level0"> <a href="#"  onclick="return false" class=""><span>CMS</span></a>
+                                <ul >
+                <li  class="   level1"> <a href="http://127.0.0.1/magento/index.php/admin/cms_page/index/key/101ef2f057f94777fc5b1b4a9d873b76/"   class=""><span>Manage Pages</span></a>
+                    </li>
+                <li  class="   level1"> <a href="http://127.0.0.1/magento/index.php/admin/cms_block/index/key/3fb5a26255f21bfc377782ac90a5951e/"   class=""><span>Static Blocks</span></a>
+                    </li>
+                <li  class="   last level1"> <a href="http://127.0.0.1/magento/index.php/admin/poll/index/key/355050d7ab38ddeece123aca7e9016bd/"   class=""><span>Poll Manager</span></a>
+                    </li>
+            </ul>
+                    </li>
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="   parent level0"> <a href="#"  onclick="return false" class=""><span>Reports</span></a>
+                                <ul >
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="   parent level1"> <a href="#"  onclick="return false" class=""><span>Sales</span></a>
+                                <ul >
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/report_sales/sales/key/2f68b61a33c018f3ff0dc65f0da4f7f3/"   class=""><span>Sales Report</span></a>
+                    </li>
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/report_sales/tax/key/48362f81b306b342d1bac2e6e55ad0d5/"   class=""><span>Tax</span></a>
+                    </li>
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/report_sales/shipping/key/e1ce8d957e6efe60e1b7ac1eb988445f/"   class=""><span>Shipping</span></a>
+                    </li>
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/report_sales/invoiced/key/33471de3880d6caa61b740eb9fbe05f1/"   class=""><span>Total invoiced</span></a>
+                    </li>
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/report_sales/refunded/key/03d4bab003aa50b35872f0d622fedbb2/"   class=""><span>Total refunded</span></a>
+                    </li>
+                <li  class="   last level2"> <a href="http://127.0.0.1/magento/index.php/admin/report_sales/coupons/key/4175bfb2507a62c3f69a26f7f06c0921/"   class=""><span>Coupons</span></a>
+                    </li>
+            </ul>
+                    </li>
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="   parent level1"> <a href="#"  onclick="return false" class=""><span>Shopping Cart</span></a>
+                                <ul >
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/report_shopcart/product/key/c57ad179679e126ab0c445421cd21774/"   class=""><span>Products in carts</span></a>
+                    </li>
+                <li  class="   last level2"> <a href="http://127.0.0.1/magento/index.php/admin/report_shopcart/abandoned/key/e7fdecd6ee44801390ee45c518cad18b/"   class=""><span>Abandoned carts</span></a>
+                    </li>
+            </ul>
+                    </li>
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="   parent level1"> <a href="#"  onclick="return false" class=""><span>Products</span></a>
+                                <ul >
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/report_product/ordered/key/6c10c4a24093f3c9fd391e6989d56570/"   class=""><span>Bestsellers</span></a>
+                    </li>
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/report_product/sold/key/7e599c49d0ae7d970b5038ee2a7b6adc/"   class=""><span>Products Ordered</span></a>
+                    </li>
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/report_product/viewed/key/a5c43761fad8b1b22cb15dc8447e6f4a/"   class=""><span>Most Viewed</span></a>
+                    </li>
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/report_product/lowstock/key/86d7d73bed33180ba3f5d3f652079a51/"   class=""><span>Low stock</span></a>
+                    </li>
+                <li  class="   last level2"> <a href="http://127.0.0.1/magento/index.php/admin/report_product/downloads/key/31b81d836b43bdaafe2b35a4104d8007/"   class=""><span>Downloads</span></a>
+                    </li>
+            </ul>
+                    </li>
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="   parent level1"> <a href="#"  onclick="return false" class=""><span>Customers</span></a>
+                                <ul >
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/report_customer/accounts/key/987629493ef785507c1e60b0ff236c05/"   class=""><span>New Accounts</span></a>
+                    </li>
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/report_customer/totals/key/3453639523ebbbcb4af9943368bdf190/"   class=""><span>Customers by orders total</span></a>
+                    </li>
+                <li  class="   last level2"> <a href="http://127.0.0.1/magento/index.php/admin/report_customer/orders/key/8157e33bc8c8ed69d5dc3f25ef08ce1d/"   class=""><span>Customers by number of orders</span></a>
+                    </li>
+            </ul>
+                    </li>
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="   parent level1"> <a href="#"  onclick="return false" class=""><span>Reviews</span></a>
+                                <ul >
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/report_review/customer/key/1a64809752949ef9e994133f4542d464/"   class=""><span>Customers Reviews</span></a>
+                    </li>
+                <li  class="   last level2"> <a href="http://127.0.0.1/magento/index.php/admin/report_review/product/key/25aa548d20c8a24c33862eeae71dce31/"   class=""><span>Products Reviews</span></a>
+                    </li>
+            </ul>
+                    </li>
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="   parent level1"> <a href="#"  onclick="return false" class=""><span>Tags</span></a>
+                                <ul >
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/report_tag/customer/key/25828187a74f2ebe4f687af2d6a180bb/"   class=""><span>Customers</span></a>
+                    </li>
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/report_tag/product/key/2af065925893430e8e145e69fc8caffd/"   class=""><span>Products</span></a>
+                    </li>
+                <li  class="   last level2"> <a href="http://127.0.0.1/magento/index.php/admin/report_tag/popular/key/eae79a0823d2477811d9e5c6f3c95636/"   class=""><span>Popular</span></a>
+                    </li>
+            </ul>
+                    </li>
+                <li  class="   last level1"> <a href="http://127.0.0.1/magento/index.php/admin/report/search/key/4b28b670a5e0e0c4793e33950a211fb1/"   class=""><span>Search Terms</span></a>
+                    </li>
+            </ul>
+                    </li>
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="  active  parent level0"> <a href="#"  onclick="return false" class="active"><span>System</span></a>
+                                <ul >
+                <li  class="   level1"> <a href="http://127.0.0.1/magento/index.php/admin/system_account/index/key/83dde54d1ff36d2bd0e9b7e198651a80/"   class=""><span>My Account</span></a>
+                    </li>
+                <li  class="   level1"> <a href="http://127.0.0.1/magento/index.php/admin/notification/index/key/249d692c635571c7818158b6ac602e1d/"   class=""><span>Notifications</span></a>
+                    </li>
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="   parent level1"> <a href="#"  onclick="return false" class=""><span>Tools</span></a>
+                                <ul >
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/system_backup/index/key/89c4b4d12eb503d3c38beec2ff66176b/"   class=""><span>Backups</span></a>
+                    </li>
+                <li  class="   last level2"> <a href="http://127.0.0.1/magento/index.php/compiler/process/index/key/148e364262ec371de56bc160695ad561/"   class=""><span>Compilation (Beta)</span></a>
+                    </li>
+            </ul>
+                    </li>
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="   parent level1"> <a href="#"  onclick="return false" class=""><span>Web Services</span></a>
+                                <ul >
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/api_user/index/key/b8a9c677196ee2e3c56bddb52d19aff3/"   class=""><span>Users</span></a>
+                    </li>
+                <li  class="   last level2"> <a href="http://127.0.0.1/magento/index.php/admin/api_role/index/key/abd57010aa529018286e5b5b115cf4b3/"   class=""><span>Roles</span></a>
+                    </li>
+            </ul>
+                    </li>
+                <li  class="   level1"> <a href="http://127.0.0.1/magento/index.php/admin/system_design/index/key/2eb4220302c8d65249af2f2b653e16c3/"   class=""><span>Design</span></a>
+                    </li>
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="   parent level1"> <a href="#"  onclick="return false" class=""><span>Import/Export</span></a>
+                                <ul >
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/system_convert_gui/index/key/6ed45de59acbdc4d23be74e58457fb01/"   class=""><span>Profiles</span></a>
+                    </li>
+                <li  class="   last level2"> <a href="http://127.0.0.1/magento/index.php/admin/system_convert_profile/index/key/e021576561ac5a1f0db0249d4f0e2745/"   class=""><span>Advanced Profiles</span></a>
+                    </li>
+            </ul>
+                    </li>
+                <li  class="   level1"> <a href="http://127.0.0.1/magento/index.php/admin/system_currency/index/key/8c234839db33e8d5e622147f0da7d051/"   class=""><span>Manage Currency Rates</span></a>
+                    </li>
+                <li  class="   level1"> <a href="http://127.0.0.1/magento/index.php/admin/system_email_template/index/key/5d5f771ff1d3214fe4d604fa0f2b1373/"   class=""><span>Transactional Emails</span></a>
+                    </li>
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="   parent level1"> <a href="#"  onclick="return false" class=""><span>Permissions</span></a>
+                                <ul >
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/permissions_user/index/key/38e62f4d76e92812adab5dd87fdeb869/"   class=""><span>Users</span></a>
+                    </li>
+                <li  class="   last level2"> <a href="http://127.0.0.1/magento/index.php/admin/permissions_role/index/key/31d7cc609fcb22c4a7ab4d4ace759217/"   class=""><span>Roles</span></a>
+                    </li>
+            </ul>
+                    </li>
+                <li onmouseover="Element.addClassName(this,'over')" onmouseout="Element.removeClassName(this,'over')" class="   parent level1"> <a href="#"  onclick="return false" class=""><span>Magento Connect</span></a>
+                                <ul >
+                <li  class="   level2"> <a href="http://127.0.0.1/magento/index.php/admin/extensions_local/index/key/e1dc3e9697b02779ea35d6302cc24705/"   class=""><span>Magento Connect Manager</span></a>
+                    </li>
+                <li  class="   last level2"> <a href="http://127.0.0.1/magento/index.php/admin/extensions_custom/index/key/3313271472282d5d10887238d30ef460/"   class=""><span>Package Extensions</span></a>
+                    </li>
+            </ul>
+                    </li>
+                <li  class="   level1"> <a href="http://127.0.0.1/magento/index.php/admin/system_cache/index/key/b925e21c8cb6bb0603d4c859fea14685/"   class=""><span>Cache Management</span></a>
+                    </li>
+                <li  class="   level1"> <a href="http://127.0.0.1/magento/index.php/admin/system_store/index/key/65a72651d1038beb737741941a58734d/"   class=""><span>Manage Stores</span></a>
+                    </li>
+                <li  class="   last level1"> <a href="http://127.0.0.1/magento/index.php/admin/system_config/index/key/84a65f868b9f7dfce1a6fe960661d340/"   class=""><span>Configuration</span></a>
+                    </li>
+            </ul>
+                    </li>
+            </ul>
+
+    <a id="page-help-link" href="http://www.magentocommerce.com/gethelp/en_GB/Mage_Adminhtml/system_config/edit/web/">Get help for this page</a>
+    <script type="text/javascript">$('page-help-link').target = 'magento_page_help'</script>
+
+</div>
+

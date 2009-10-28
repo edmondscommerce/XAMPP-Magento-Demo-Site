@@ -1,0 +1,82 @@
+<div class="header-nav-container">
+    <div class="header-nav">
+        <h4 class="no-display">Category Navigation:</h4>
+        <ul id="nav">
+                    <li onmouseover="toggleMenu(this,1)" onmouseout="toggleMenu(this,0)" class="level0 nav-furniture active parent">
+<a href="http://127.0.0.1/magento/furniture.html?___SID=U"><span>Furniture</span></a>
+<ul class="level0">
+<li class="level1 nav-furniture-living-room active">
+<a href="http://127.0.0.1/magento/furniture/living-room.html?___SID=U"><span>Living Room</span></a>
+</li>
+<li class="level1 nav-furniture-bedroom last">
+<a href="http://127.0.0.1/magento/furniture/bedroom.html?___SID=U"><span>Bedroom</span></a>
+</li>
+</ul></li>
+                    <li onmouseover="toggleMenu(this,1)" onmouseout="toggleMenu(this,0)" class="level0 nav-electronics parent">
+<a href="http://127.0.0.1/magento/electronics.html?___SID=U"><span>Electronics</span></a>
+<ul class="level0">
+<li class="level1 nav-electronics-cell-phones">
+<a href="http://127.0.0.1/magento/electronics/cell-phones.html?___SID=U"><span>Cell Phones</span></a>
+</li>
+<li onmouseover="toggleMenu(this,1)" onmouseout="toggleMenu(this,0)" class="level1 nav-electronics-cameras parent">
+<a href="http://127.0.0.1/magento/electronics/cameras.html?___SID=U"><span>Cameras</span></a>
+<ul class="level1">
+<li class="level2 nav-electronics-cameras-accessories">
+<a href="http://127.0.0.1/magento/electronics/cameras/accessories.html?___SID=U"><span>Accessories</span></a>
+</li>
+<li class="level2 nav-electronics-cameras-digital-cameras last">
+<a href="http://127.0.0.1/magento/electronics/cameras/digital-cameras.html?___SID=U"><span>Digital Cameras</span></a>
+</li>
+</ul></li>
+<li onmouseover="toggleMenu(this,1)" onmouseout="toggleMenu(this,0)" class="level1 nav-electronics-computers last parent">
+<a href="http://127.0.0.1/magento/electronics/computers.html?___SID=U"><span>Computers</span></a>
+<ul class="level1">
+<li class="level2 nav-electronics-computers-build-your-own">
+<a href="http://127.0.0.1/magento/electronics/computers/build-your-own.html?___SID=U"><span>Build Your Own</span></a>
+</li>
+<li class="level2 nav-electronics-computers-laptops">
+<a href="http://127.0.0.1/magento/electronics/computers/laptops.html?___SID=U"><span>Laptops</span></a>
+</li>
+<li class="level2 nav-electronics-computers-hard-drives">
+<a href="http://127.0.0.1/magento/electronics/computers/hard-drives.html?___SID=U"><span>Hard Drives</span></a>
+</li>
+<li class="level2 nav-electronics-computers-monitors">
+<a href="http://127.0.0.1/magento/electronics/computers/monitors.html?___SID=U"><span>Monitors</span></a>
+</li>
+<li class="level2 nav-electronics-computers-ram-memory">
+<a href="http://127.0.0.1/magento/electronics/computers/ram-memory.html?___SID=U"><span>RAM / Memory</span></a>
+</li>
+<li class="level2 nav-electronics-computers-cases">
+<a href="http://127.0.0.1/magento/electronics/computers/cases.html?___SID=U"><span>Cases</span></a>
+</li>
+<li class="level2 nav-electronics-computers-processors">
+<a href="http://127.0.0.1/magento/electronics/computers/processors.html?___SID=U"><span>Processors</span></a>
+</li>
+<li class="level2 nav-electronics-computers-peripherals last">
+<a href="http://127.0.0.1/magento/electronics/computers/peripherals.html?___SID=U"><span>Peripherals</span></a>
+</li>
+</ul></li>
+</ul></li>
+                    <li onmouseover="toggleMenu(this,1)" onmouseout="toggleMenu(this,0)" class="level0 nav-apparel parent">
+<a href="http://127.0.0.1/magento/apparel.html?___SID=U"><span>Apparel</span></a>
+<ul class="level0">
+<li class="level1 nav-apparel-shirts">
+<a href="http://127.0.0.1/magento/apparel/shirts.html?___SID=U"><span>Shirts</span></a>
+</li>
+<li onmouseover="toggleMenu(this,1)" onmouseout="toggleMenu(this,0)" class="level1 nav-apparel-shoes parent">
+<a href="http://127.0.0.1/magento/apparel/shoes.html?___SID=U"><span>Shoes</span></a>
+<ul class="level1">
+<li class="level2 nav-apparel-shoes-mens">
+<a href="http://127.0.0.1/magento/apparel/shoes/mens.html?___SID=U"><span>Mens</span></a>
+</li>
+<li class="level2 nav-apparel-shoes-womens last">
+<a href="http://127.0.0.1/magento/apparel/shoes/womens.html?___SID=U"><span>Womens</span></a>
+</li>
+</ul></li>
+<li class="level1 nav-apparel-hoodies last">
+<a href="http://127.0.0.1/magento/apparel/hoodies.html?___SID=U"><span>Hoodies</span></a>
+</li>
+</ul></li>
+                </ul>
+    </div>
+    </div>

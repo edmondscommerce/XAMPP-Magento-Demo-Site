@@ -1,0 +1,251 @@
+#!H:\release167\NEU\xampp\php\.\php.exe
+<?php
+// +----------------------------------------------------------------------+
+// | procwatch                                                            |
+// +----------------------------------------------------------------------+
+// | This source file is subject to version 3.0 of the PHP license,       |
+// | that is available at http://www.php.net/license/3_0.txt              |
+// | If you did not receive a copy of the PHP license and are unable      |
+// | to obtain it through the world-wide-web, please send a note to       |
+// | license@php.net so we can mail you a copy immediately.               |
+// +----------------------------------------------------------------------+
+// | Copyright (c) 2003-2004 Michael Wallner <mike@iworks.at>             |
+// +----------------------------------------------------------------------+
+//
+// $Id: system-procwatch.php,v 1.4 2004/03/21 17:21:41 mike Exp $
+
+/**
+* Shell script for System_ProcWatch
+* 
+* @author       Michael Wallner <mike@php.net>
+* @link         http://pear.php.net/package/System_ProcWatch
+* @package      System_ProcWatch
+* @category     System
+* @version      $Revision: 1.4 $
+*/
+
+/**
+* Requires System::ProcWatch
+*/
+require_once('System/ProcWatch.php');
+
+/**
+* Requires System::ProcWatch::Config
+*/
+require_once('System/ProcWatch/Config.php');
+
+/**
+* Requires Console::Getopt
+*/
+require_once('Console/Getopt.php');
+
+/**
+* Set error handling
+*/
+PEAR::setErrorHandling(PEAR_ERROR_CALLBACK, '_show_usage');
+
+/**
+* Command line options
+*/
+$options = array(
+    'x:'    => 'xml=',
+    'i:'    => 'ini=',
+    'h'     => 'help',
+    'd'     => 'daemon',
+    's:'    => 'sleep=',
+    'a:'    => 'args=',
+    'p:'    => 'php=',
+);
+
+$arglist = Console_Getopt::readPHPArgv();
+$srcname = array_shift($arglist);
+
+/**
+* Get command line arguments
+*/
+$cl_args = _prepare_args(
+    array_shift(
+        Console_Getopt::getopt(
+            $arglist,                           // ARGV
+            implode('', array_keys($options)),  // short options
+            array_values($options)              // long options
+        )
+    )
+);
+
+/**
+* Show usage if:
+*   o requested with -h or --help
+*   o one of -x, -i, --xml or --ini was not specified
+*/
+if (
+    isset($cl_args['h'])    ||
+    isset($cl_args['help']) ||
+    (
+        (!isset($cl_args['x']) && !isset($cl_args['xml'])) &&
+        (!isset($cl_args['i']) && !isset($cl_args['ini']))
+    )
+)
+{
+    _show_usage();
+}
+
+/**
+* Get path to config file
+*/
+$xmlfile =  (isset($cl_args['x'])   ? $cl_args['x']     : 
+            (isset($cl_args['xml']) ? $cl_args['xml']   : false));
+
+$inifile =  (isset($cl_args['i'])   ? $cl_args['i']     :
+            (isset($cl_args['ini']) ? $cl_args['ini']   : false));
+
+/**
+* Get ps' args if set
+*/
+$ps_args =  (isset($cl_args['a'])       ? $cl_args['a'] :
+            (isset($cl_args['args'])    ? $cl_args['args'] : 'aux'));
+
+/**
+* Include a PHP script if wanted
+*/
+$php_inc =  (isset($cl_args['p'])   ? $cl_args['p'] :
+            (isset($cl_args['php']) ? $cl_args['php'] : false));
+
+if ($php_inc) {
+
+    /**
+    * DONT USE THE FOLLOWING PHP VARIABLES
+    * 
+    *   $procwatch
+    *   $interval
+    *   $ps_args
+    *   $cl_args
+    *   $xmlfile
+    *   $srcname
+    *   $arglist
+    *   $options
+    * 
+    * unless you KNOW what you're doing!
+    */
+
+    if (!@include_once($php_inc)) {
+        PEAR::raiseError("File '$php_inc' doesn't exist");
+        // exit
+    }
+}
+
+/**
+* Show usage with error message if path to config file is invalid
+* PEAR::raiseError() will call _show_usage() and exit
+*/
+if ($xmlfile) {
+
+    if (is_file($xmlfile)) {
+        $config = System_ProcWatch_Config::fromXmlFile($xmlfile);
+    } else {
+        PEAR::raiseError("File '$xmlfile' doesn't exist");
+        // exit
+    }
+
+} elseif ($inifile) {
+
+    if (is_file($inifile)) {
+        $config = System_ProcWatch_Config::fromIniFile($inifile);
+    } else {
+        PEAR::raiseError("File '$inifile' doesn't exist");
+        // exit
+    }
+
+}
+
+/**
+* Finally init System_ProcWatch
+*/
+$procwatch = &new System_ProcWatch($config);
+
+/**
+* Now run either once or in daemon mode
+*/
+if (isset($cl_args['d']) || isset($cl_args['daemon'])) {
+
+    // run in daemon mode
+    $interval = (int)   (isset($cl_args['s']) ? $cl_args['s'] : 
+                        (isset($cl_args['sleep']) ? $cl_args['sleep'] :
+                        1800)); // default = 30 min
+
+    $procwatch->daemon($interval, $ps_args);
+
+} else {
+
+    // run once
+    $procwatch->run($ps_args);
+
+}
+
+// ------------------ script end ------------------ //
+
+/**
+* Prepare args array from Console_Getopt::getopt()
+* 
+* @return   array
+* @param    array
+*/
+function _prepare_args($array)
+{
+    $args = array();
+    foreach ($array as $option) {
+        $key        = preg_replace('/^-+/', '', $option[0]);
+        $args[$key] = empty($option[1]) ?  1 : $option[1];
+    }
+    return $args;
+}
+
+/**
+* Function which shows usage of this script
+* 
+* @return   void
+* @param    object PEAR_Error
+*/
+function _show_usage($error = null)
+{
+    if (isset($error)) {
+
+        fputs(STDERR, "\nError: " . $error->getMessage() . "\n\n");
+        exit(-1);
+
+    } else {
+
+        echo <<<_SHOW_USAGE
+#
+# procwatch v0.4.2, 2004-06-12 by Michael Wallner <mike@php.net>
+# For further information visit http://pear.php.net/package/System_ProcWatch
+#
+
+USAGE:
+\$ {$GLOBALS['srcname']} (-x|-i) <file> [-d [-s <sec>]] [-a <args>] [-p <file>]
+
+OPTIONS:
+    -x | --xml=         path to XML configuration file
+    -i | --ini=         path to INI configuration file
+
+    -d | --daemon       run procwatch in daemon mode
+    -s | --sleep=       seconds to sleep in daemon mode (default=1800)
+
+    -a | --args=        arguments that should be passed to ps (default=aux)
+    -p | --php=         php file that should be included
+
+    -h | --help         this help message
+
+EXAMPLE:
+    \$ {$GLOBALS['srcname']} -x /etc/procwatch.xml -d -s 3600
+
+    This command will run procwatch in daemon mode with an interval
+    of an hour using the configuration file '/etc/procwatch.xml'
+
+_SHOW_USAGE;
+    
+        exit(0);
+
+    }
+}
+?>

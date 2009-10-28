@@ -1,0 +1,5 @@
+1: Activate XDEBUG in apache\bin\php.ini 
+2: Comment out ZEND (only one zend_extension_ts is going)
+3: Start PHP Scripts with session param ?XDEBUG_SESSION_START=<name>
+e.g.: http://localhost/xampp/phpinfo.php?XDEBUG_SESSION_START=mydebug
+4: Start xampp\php\debugclient-x.y.z.exe

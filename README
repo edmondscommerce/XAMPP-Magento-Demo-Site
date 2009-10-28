@@ -1,0 +1,78 @@
+Introduction
+============
+
+This is a portable Magento installation including test data. 
+It is designed to be easily set up on any windows machine running from a USB key or folder.
+
+IT IS NOT DESIGNED FOR PRODUCTION ENVIRONMENTS OR PUBLIC SERVERS
+
+It is based upon XAMPP version 1.7.1 which is a PHP 5.2 version. 
+I have opted to build on this version as most people's server will still be on 5.2x and also Magento seems to have some issue with PHP 5.3 at the time of creating this portable version.
+
+The Magento version is 1.3.2.4 which was the latest version at the time of creating this portable version.
+
+This portable Magento has been brought to you by Edmonds Commerce. 
+
+We are going to use it on our Magento Training Courses.
+
+www.edmondscommerce.co.uk
+
+
+Instructions
+============
+
+
+This will open a new window. You need to hit the [Start] button next to Apache and MySQL.
+
+Once they are started, open firefox and type http://127.0.0.1 in the address bar.
+
+You should see an XAMPP splash screen displayed. If you do, then XAMPP is working correctly.
+
+If not then you need to investigate further, perhaps try running the XAMPP setup script again or hit Google..
+
+
+XAMPP Security
+====================
+
+A default XAMPP installation is not totally secure. This installation has already had the XAMPP security script run.
+
+We suggest that you re run this script again to set your own password.
+http://127.0.0.1/xampp/
+
+Database:
+'''''''''
+
+The MySQL user name is root
+The password is edmondscommerce
+
+Web Server:
+'''''''''''
+
+The xampp folder is protected by a htaccess password.
+User: xampp
+Pass: xampp
+
+
+Magento Installation
+====================
+
+You can see the Magento installation by going to http://127.0.0.1/magento/
+
+The admin is located at http://127.0.0.1/magento/admin/
+
+
+admin username is: demo
+admin pass is: 1magento
+
+encryption key is: feba92617f928653ab0874d4e00797d2
+
+
+Further Actions
+===============
+
+Correct configuration of XAMPP 
+
+Edited htaccess file to uncomment the RewriteBase
+plus messing about enabling and disabling it and refreshing caches in Magento until it works.
+
+Tested Magento Connect, it looks like it is nearly working but not quite.

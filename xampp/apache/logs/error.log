@@ -1,0 +1,26 @@
+[Wed Oct 28 13:18:58 2009] [notice] Digest: generating secret for digest authentication ...
+[Wed Oct 28 13:18:58 2009] [notice] Digest: done
+[Wed Oct 28 13:19:03 2009] [notice] Apache/2.2.11 (Win32) DAV/2 mod_ssl/2.2.11 OpenSSL/0.9.8i PHP/5.2.9 configured -- resuming normal operations
+[Wed Oct 28 13:19:03 2009] [notice] Server built: Dec 10 2008 00:10:06
+[Wed Oct 28 13:19:03 2009] [notice] Parent: Created child process 3844
+[Wed Oct 28 13:19:05 2009] [notice] Digest: generating secret for digest authentication ...
+[Wed Oct 28 13:19:05 2009] [notice] Digest: done
+[Wed Oct 28 13:19:06 2009] [notice] Child 3844: Child process is running
+[Wed Oct 28 13:19:06 2009] [notice] Child 3844: Acquired the start mutex.
+[Wed Oct 28 13:19:06 2009] [notice] Child 3844: Starting 250 worker threads.
+[Wed Oct 28 13:19:06 2009] [notice] Child 3844: Starting thread to listen on port 443.
+[Wed Oct 28 13:19:06 2009] [notice] Child 3844: Starting thread to listen on port 80.
+Adding password for user xampp
+[Wed Oct 28 13:30:05 2009] [warn] pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Oct 28 13:30:05 2009] [notice] Digest: generating secret for digest authentication ...
+[Wed Oct 28 13:30:05 2009] [notice] Digest: done
+[Wed Oct 28 13:30:06 2009] [notice] Apache/2.2.11 (Win32) DAV/2 mod_ssl/2.2.11 OpenSSL/0.9.8i PHP/5.2.9 configured -- resuming normal operations
+[Wed Oct 28 13:30:06 2009] [notice] Server built: Dec 10 2008 00:10:06
+[Wed Oct 28 13:30:06 2009] [notice] Parent: Created child process 556
+[Wed Oct 28 13:30:07 2009] [notice] Digest: generating secret for digest authentication ...
+[Wed Oct 28 13:30:07 2009] [notice] Digest: done
+[Wed Oct 28 13:30:08 2009] [notice] Child 556: Child process is running
+[Wed Oct 28 13:30:08 2009] [notice] Child 556: Acquired the start mutex.
+[Wed Oct 28 13:30:08 2009] [notice] Child 556: Starting 250 worker threads.
+[Wed Oct 28 13:30:08 2009] [notice] Child 556: Starting thread to listen on port 443.
+[Wed Oct 28 13:30:08 2009] [notice] Child 556: Starting thread to listen on port 80.

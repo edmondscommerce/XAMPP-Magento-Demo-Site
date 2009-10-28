@@ -1,0 +1,89 @@
+08. April 2009 1.7.1 Beta5
+- Upgrade Mysql 5.1.33
+- Upgrade phpMyAdmin 3.1.3.1
+
+21. March 2009 1.7.1 Beta4
+- Fix PHP PostScript bug: http://www.apachefriends.org/f/viewtopic.php?f=16&t=33742
+- Upgrade FileZilla FTP Server 0.9.31
+- Change php_ssh2.dll 
+ 	=> Original: SSH-2.0-libssh2_0.11 
+	=> Now:	     SSH-2.0-libssh2_1.0 
+
+06. March 2009 1.7.1 Beta3
+- Upgrade phpMyAdmin 3.1.3
+- Upgrade Mysql 5.1.32
+- Upgrade eAccelerator for PHP 5.2.9
+
+27. Feb 2009 1.7.1 Beta2
+- Upgrade PHP 5.2.9
+
+25. Feb 2009 1.7.1 Beta1
+- Upgrade FileZilla FTP Server 0.9.30
+- Recompile php_mysql.dll, php_mysqli.dll for Mysql 5.1.31
+
+18. Feb 2009 1.7.0 pl1 Beta7
+- Upgrade xampp_cli bundle from version 1.2 to 1.3
+- Upgrade phpMyAdmin from version 3.1.1 to 3.1.2
+- Upgrade Mysql from version 5.1.30 to 5.1.31
+
+
+05. Feb 2009 1.7.0 pl1 beta6
+- Upgrade xampp_cli bundle from version 1.0 to 1.1
+- Changing file name from my.cnf to my.ini
+- httpd-xampp.conf: Add PHPINIDir "/xampp/php"
+- httpd-xampp.conf: Add FilesMatch for PHP
+- Add fribidi.dll, iconv.dll, jpeg62.dll, libiconv2.dll, libintl3.dll, libmysql_5.0.51a.dll,
+  libswish-e.dll, yaz.dll to apache\bin
+- Add oci.dll, ociw32.dll, orannzsbb10.dll, zlib1.dll to the php directory
+- Remove comerr32.dll, gssapi32.dll, k5sprt32.dll, krb5_32.dll, libdb43.dll
+- Make safe the httpd-info.conf
+
+04. Feb 2009 1.7.0 pl1 beta5
+
+- Add XAMPP CLI Bundle from Carsten Wiedmann: 
+xampp_cli.exe, xampp_start.exe,xampp_stop.exe,xampp_restart.exe,xampp_chkdll.exe
+- xampp-control.exe: Changing mysql stop routine 
+- makecert.bat: Test certificate hold "-days 3650" by default
+- MySQL: pma user have no privilges anymore
+
+29. Jan 2009 1.7.0 pl1 beta4
+
+- Modify httpd-xampp.conf/httpd-userdir.conf
+- Add pdo_oci 1.0.1 from Carsten Wiedmann
+- Add postgresql staticclient 8.1.15 from Carsten Wiedmann
+- Clean some bin directories
+- Make a new openssl test certificate
+- Move Subversion from here to the devel package
+- Add shutdown privilege for pma user on localhost  
+
+
+23. Jan 2009 1.7.0 pl1 beta3
+- Delete php\ext\php_svn.dll
+- Delete php\php5.ini
+- Delete mysql-gui-tools-noinstall-5.0-r15
+- New build xampp-control.exe
+- Patching phpMyAdmin\main.php (305-318)
+
+21. Jan 2009 1.7.0 pl1 beta2
+- Rollback all self compilations, only official binaries used
+- Delete shutdown/refresh privileges for user pma (mysql)  
+- Add timetables in mysql
+- Changing Shutdown Method for MySQl in
+	mysql_stop.bat
+	xampp-control.exe
+- Changing apache default executable from apache.exe to httpd.exe in
+	xampp-control.exe
+	apache_start.bat
+	apache_stop.bat
+	apache_installservice.bat
+	apache_uninstallservice.bat
+- Delete winmysqladmin.exe, add mysql-gui-tools-noinstall-5.0-r15 therefore
+- Replace mysql-gui-tools for winmysqladmin in xampp-control.exe
+- Replace php_xdebug.dll with the latest official binary
+- Using the official libmysql.dll from PHP and NOT the official from Mysql because it crashing.
+  Perhaps the libmysql.dll for 5.0.51a make problems with  MySQL 5.1.30   
+  
+14. Jan 2009 1.7.0 pl1
+- Include Patch 1 & Patch 2
+- Update Mercury to version 4.62 
+- Update ADODB to 5.06a  
