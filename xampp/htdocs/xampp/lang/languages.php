@@ -1,5 +1,6 @@
 <?
 $languages['en']="English";
+$languages['ru']="Russian";
 $languages['de']="Deutsch";
 $languages['fr']="Francais";
 $languages['nl']="Nederlands";
